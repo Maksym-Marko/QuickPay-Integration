@@ -70,7 +70,7 @@ class QuickpayGateway extends Gateway {
 			Fields\FieldFactory::create( "mphb_payment_gateway_{$this->id}_api_key", array(
 				'type'		 => 'text',
 				'label'		 => __( 'Quickpay API Key', 'motopress-hotel-booking' ),
-				'default'	 => 'beb09ef48054c6cd61a6a7e088bacdccb801507c30ed9ba7ecd91f441ebde589'
+				'default'	 => ''
 			) )
 		);
 
